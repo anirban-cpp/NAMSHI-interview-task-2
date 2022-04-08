@@ -1,0 +1,18 @@
+ .home {
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex: 1;
+}
+
+.sidebar {
+    flex: 0.2;
+}
+
+.products {
+    flex: 0.55;
+}
+
+.cart {
+    flex: 0.25;
+}

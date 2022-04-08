@@ -1,0 +1,43 @@
+.sidebar-container {
+    margin-top: 3rem;
+}
+
+.p-categories {
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+    width: fit-content;
+    color: rgb(113, 109, 109);
+}
+
+.p-categories-list {
+    list-style: none;
+    margin-top: 3rem;
+    padding: 0;
+}
+
+.p-categories-list > li {
+    margin-bottom: 2rem;
+}
+
+.p-categories-list > li > div {
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+.list-item {
+    color: rgb(196, 185, 185);
+}
+
+.active {
+    border-right: 0.6rem solid rgb(206, 104, 40);
+    background: linear-gradient(90deg, rgba(255,253,249,1) 6%, rgba(247,217,193,1) 52%, rgba(237,204,177,1) 100%, rgba(239,180,135,1) 100%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+    color: rgb(206, 104, 40);
+}
+
+.list-item,.active > p{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

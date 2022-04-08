@@ -1,0 +1,20 @@
+.header {
+    background-color: black;
+    height: 10rem;
+    position: relative;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.5rem;
+    width: 98.7%;
+    background: linear-gradient(to right, rgb(220, 101, 101),rgb(204, 30, 30),rgb(220, 101, 101));
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border: 0.5rem solid black;
+}

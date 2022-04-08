@@ -1,0 +1,38 @@
+.cartitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.cartitem-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.cartitem-top > p {
+    font-family: cursive;
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.cartitem-bottom {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.cartitem-bottom-detail-price {
+    font-size: 1.25rem;
+    font-family: cursive;
+}
+
+.cartitem-bottom-price {
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

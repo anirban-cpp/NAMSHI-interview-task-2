@@ -1,0 +1,96 @@
+.product {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem 2rem;
+}
+
+.product-left {
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+}
+
+.product-left > img {
+    object-fit: contain;
+    width: 50%;
+}
+
+.product-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.6;
+    height: 10rem;
+}
+
+.product-middle-title {
+    font-family: cursive;
+    font-size: 2rem;
+    color: gray;
+
+}
+
+.product-middle-price {
+    font-size: large;
+    font-family: cursive;
+    color: rgb(71, 70, 70);
+}
+
+.product-middle-desc {
+    font-family: cursive;
+    font-size: 1.25rem;
+    color: gray;
+}
+
+.product-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.2;
+}
+
+.add {
+    border: 2px solid rgb(206, 5, 5);
+    width: 55%;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all linear 250ms;
+}
+
+.cart-button {
+    border: 2px solid rgb(206, 5, 5);
+    width: 55%;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    transition: all linear 250ms;
+}
+
+.cart-button > p {
+    flex: 0.33;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cart-button > div {
+    background-color: rgb(253, 229, 229);
+    color: red;
+    margin: 0;
+    flex: 0.33;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cart-button > div > p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}

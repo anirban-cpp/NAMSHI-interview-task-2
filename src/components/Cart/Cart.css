@@ -1,0 +1,103 @@
+.cart-container {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.cart-title {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.cart-title-left {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.4;
+    align-items: center;
+}
+
+.cart-title-left > h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.cart-title-left > p {
+    font-size: 1.25rem;
+}
+
+.cart-title-right {
+    flex: 0.3;
+}
+
+.cart-title-right > p {
+    font-size: 1.5rem;
+    color: red;
+    text-align: right;
+}
+
+.cart-title-right > p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.divider {
+    background-color: lightgray;
+    height: 0.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divider-dotted {
+    /* width: 90%; */
+    border: 1px dashed gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.empty-cart-image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.cart-total > div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.total-items {
+    color: gray;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.price-total {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.check-out {
+    margin-top: 3rem;
+    height: 4.5rem;
+    width: 100%;
+    background-color: #fb641b;;
+    border: none;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}

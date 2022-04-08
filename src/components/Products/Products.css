@@ -1,0 +1,24 @@
+.products-container {
+    border-left: 2px solid rgb(235, 232, 232);
+    border-right: 2px solid rgb(235, 232, 232);
+    margin-top: 3rem;
+}
+
+.p-container-title {
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2rem;
+}
+
+.banner {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 4rem);
+    margin-bottom: 4rem;
+}
+
+.banner > img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 2rem;
+}
